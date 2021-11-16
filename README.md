@@ -16,15 +16,16 @@ In life, you only have 60 seconds to impress someone. 1 minute can make or break
 ### Live Site
 View [live](/https://myblogapp02.herokuapp.com/)
 ## User Stories
-These are the behaviours/features that the application implements for use by a user.
-
-*As a user, I would like to see the pitches other people have posted.
-*As a user, I would like to vote on the pitch they liked and give it a downvote or upvote.
-*As a user, I would like to receive a welcoming email once I sign up.
-*As a user, I would like to view the pitches I have created in my profile page.
-*As a user, I would like to comment on the different pitches and leave feedback.
-*As a user, I would like to submit a pitch in any category.
-*As a user, I would like to view the different categories.
+* These are the behaviours/features that the application implements for use by a user.
+ As a user, I would like to see the pitches other people have posted.
+As a user, I would like to vote on the pitch they liked and give it a downvote or upvote.
+As a user, I would like to be signed in for me to leave a comment
+As a user, I would like to receive a welcoming email once I sign up.
+As a user, I would like to view the pitches I have created in my profile page.
+As a user, I would like to comment on the different pitches and leave feedback.
+As a user, I would like to submit a pitch in any category.
+As a user, I would like to view the different categories.
+   
 
 
 ## SetUp / Installation Requirements
@@ -48,11 +49,6 @@ These are the behaviours/features that the application implements for use by a u
 
         $ chmod +x start.sh
         $ ./start.sh
-
-## Testing the Application
-* To run the tests for the class files:
-
-        $ python3 manage.py test
 
 ## Technologies Used
 * Python3.6

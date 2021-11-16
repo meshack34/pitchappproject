@@ -14,7 +14,7 @@ In life, you only have 60 seconds to impress someone. 1 minute can make or break
 </table>
 
 ### Live Site
-View [live](/https://myblogapp02.herokuapp.com/)
+View [live](https://startpitchapp.herokuapp.com/)
 
 ## User Stories
 * These are the behaviours/features that the application implements for use by a user

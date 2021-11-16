@@ -9,12 +9,9 @@ from .. import db,photos
 def index():
     pitches = Pitch.query.all()
     technology = Pitch.query.filter_by(category = 'Technology').all() 
-    business = Pitch.query.filter_by(category = 'Business').all()
-    programming = Pitch.query.filter_by(category = 'Programming').all()
-    religion = Pitch.query.filter_by(category = 'Religion').all()
-    sports = Pitch.query.filter_by(category = 'Sports').all()
-    social = Pitch.query.filter_by(category = 'Social').all()
-    return render_template('index.html', pitches = pitches, technology = technology,business = business,programming= programming,religion = religion,sports = sports,social = social)
+    Environment = Pitch.query.filter_by(category = 'Environment').all()
+    Agriculture = Pitch.query.filter_by(category = 'Agriculture').all()
+    return render_template('index.html', pitches = pitches, technology = technology,Environment = Environment,Agriculture= Agriculture)
 
 @main.route('/create_new', methods = ['POST','GET'])
 @login_required
